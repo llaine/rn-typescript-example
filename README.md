@@ -5,3 +5,4 @@ This is an attempt to integrate RN + Typescript but it doesn't currently work.  
 ## Help wanted
 
 If you spot the problem- send a PR or file an issue.
+
