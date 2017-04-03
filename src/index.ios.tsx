@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import * as React from 'react';
 import {
     AppRegistry,
     Text,
     View
 } from 'react-native';
 
-export default class badgeExplorerTS extends Component<{}, {}> {
+export default class badgeExplorerTS extends React.Component<{}, {}> {
     render() {
         return (
             <View
