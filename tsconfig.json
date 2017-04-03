@@ -1,16 +1,5 @@
 {
     "compilerOptions": {
-        "module": "system",
-        "removeComments": true,
-        "preserveConstEnums": true,
-        "sourceMap": true,
-        "moduleResolution": "node",
         "jsx": "react"
-    },
-    "include": [
-        "src/**/*"
-    ],
-    "exclude": [
-        "node_modules"
-    ]
+    }
 }
