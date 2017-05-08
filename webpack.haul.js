@@ -12,6 +12,6 @@ module.exports = ({ platform }, { module, resolve }) => ({
   },
   resolve: {
     ...resolve,
-    extensions: ['.ts', '.tsx', ...resolve.extensions],
+    extensions: ['.ts', '.tsx', `.${platform}.ts`, '.native.ts', `.${platform}.tsx`, '.native.tsx', ...resolve.extensions],
   },
 });

@@ -7,6 +7,8 @@
 		"test": "jest"
 	},
 	"dependencies": {
+		"@types/react": "^15.0.24",
+		"@types/react-native": "^0.43.11",
 		"react": "~15.4.1",
 		"react-native": "0.42.3",
 		"ts-loader": "^2.0.3",
