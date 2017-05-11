@@ -7,13 +7,12 @@ module.exports = ({ platform }, { module, resolve }) => ({
     rules: [
       {
         test: /\.tsx?$/,
-        exclude: '/node_modules/',
         use: [
             {
               loader: 'babel-loader',
               options: {
                 presets: ['es2015']
-              }
+              },
             },
             {
               loader: 'ts-loader'
