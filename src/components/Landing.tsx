@@ -14,7 +14,7 @@ interface Props {
 
 export default class Landing extends Component<Props, void> {
     render() {
-        // const configuration = new Configuration('7f93bb8a2fc7483cea31f758270cd849');
+        const configuration = new Configuration('API_KEY');
         // configuration.notifyReleaseStages =  ['development'];
         // configuration.releaseStage = 'development';
         // const bugsnag = new Client(configuration);
